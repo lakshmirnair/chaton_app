@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "881627068345",
+    "firebase_url": "https://chaton-3e210.firebaseio.com",
+    "project_id": "chaton-3e210",
+    "storage_bucket": "chaton-3e210.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881627068345:android:632e7696057bc233",
+        "android_client_info": {
+          "package_name": "com.example.dell.chaton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881627068345-99k9vmkrmge20h96aqorucvce8r4i8po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.chaton",
+            "certificate_hash": "9bc98df713ebd0b67eadbfce094bb6f139f0580f"
+          }
+        },
+        {
+          "client_id": "881627068345-9iin1gtdjnf9a7e5gl3n68681h36c2mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZKy6GPAAYwSP2yGV9aWn1QeABXIt6Agk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881627068345-9iin1gtdjnf9a7e5gl3n68681h36c2mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

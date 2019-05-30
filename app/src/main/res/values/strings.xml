@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">chaton</string>
+    <string name="app_name_slogan">urgent messages</string>
+
+    <string name="give_correct_information">Please your give proper Email id and phone no</string>
+
+    <!-- My Common Strings -->
+
+    <string name="profile_settings">My Profile</string>
+
+    <string name="log_in">Log In</string>
+    <string name="log_out">Log Out</string>
+    <string name="profile">Profile</string>
+    <string name="friends">Friends</string>
+    <string name="about_app">About App</string>
+    <string name="all_peoples">Peoples</string>
+    <string name="all_friends">Friends</string>
+
+
+    <!-- Slider Screen Strings -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+    <string name="title_slide1">Friendship</string>
+    <string name="desc_slide1">you can find a large number of people to build up friendship</string>
+    <string name="title_slide2">No Cost</string>
+    <string name="desc_slide2">chaton is completely FREE of cost, no subscription fees.</string>
+    <string name="title_slide3">Chatting</string>
+    <string name="desc_slide3">you can chat to the person whom you want</string>
+    <string name="title_slide4">Secure</string>
+    <string name="desc_slide4">chatOn keeps your messages secure</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="on_internet_msg">No internet connection</string>
+    <string name="menu_search">Search</string>
+    <string name="register_success_popup">Registered successfully.Please verify email.</string>
+    <string name="recheck_gender">Give information properly</string>
+
+    <string-array name="spinerViewPeople">
+        <item>Default</item>
+        <item>Name</item>
+        <item>Date</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Firebase Database node / fields -->
+</resources>

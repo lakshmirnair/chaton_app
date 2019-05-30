@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingTop="40dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="50dp">
+
+            <ImageView
+                android:layout_width="84dp"
+                android:layout_height="57dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="01dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:src="@drawable/chaton1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="2dp"
+                android:paddingTop="1dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="2dp"
+                android:text="@string/give_correct_information"
+                android:textAlignment="center" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <EditText
+                    android:id="@+id/registerFullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Full Name"
+                    android:inputType="textCapWords"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <EditText
+                    android:id="@+id/registerEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Your Email"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <EditText
+                    android:id="@+id/registerMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Mobile No"
+                    android:inputType="number" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:passwordToggleDrawable="@drawable/pass_icon_selector"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/registerPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Type Password"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:passwordToggleDrawable="@drawable/pass_icon_selector"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/confirm_registerPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Confirm Password"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/resisterButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="17dp"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:text="Create Account"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
